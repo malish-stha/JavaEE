@@ -8,5 +8,13 @@
 </head>
 <body>
 	<h1>Hello World!!</h1>
+	<form action="firstservlet" method="POST">
+	<label>Name:</label><br/>
+	<input type="text" name="text1"/><br/>
+	<label>Password:</label><br/>
+	<input type="password" name="password1"/><br/>
+	<input type="submit" value="submit"/>
+	
+	</form>
 </body>
 </html>
